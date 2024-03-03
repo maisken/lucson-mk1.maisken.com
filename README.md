@@ -127,3 +127,5 @@ or maybe the needle just needs replacing. I am not sure if the needle cartdrige 
 needles are the only web results that popped up when searching for LUCSON MK I, so that's something to explore in the future.
 
 Know more about the LUCSON MK I, or have anything to share or add? Please open a [pull request](https://github.com/maisken/lucson-mk1.maisken.com/pulls) and contribute!
+
+![Final image](/images/dramatic_final.jpg)
