@@ -61,12 +61,13 @@ by means of four rubber, shock-absorbing washers (yes, sitting on the four "hole
 
 The circuitry is quite neat:
 a couple of capacitors to stabilize the input voltage; one circuit driving the motor; and one circuit picking the needle input to drive the loudspeaker. That's about it.
-A thermal switch, implemented as a simple pair of copper plates that separate by heat expansion, ensures "safe" (for the time!) operation;
+A thermal switch, implemented as a simple pair of normally-closed copper plates that separate by heat expansion, ensures "safe" (for the time!) operation;
 this is put in series with a further switch that closes when the vinyl is inserted, that powers the rest of the PCB.
 This is actually a nice layout that keeps the batteries fully disconected when the player is not in use; with mains, only the transformer is powered.
 
 ![Thermal switch](/images/thermal_switch.jpg)
-*The thermal switch, made of two vertical copper plates touching each other, can be seen roughly at the center of the picture.*
+*The thermal switch, made of two vertical copper plates touching each other, can be seen roughly at the center of the picture.
+Heat from excessive current makes the copper expand, opening the circuit.*
 
 To preserve the vintage feeling (and for lack of better knowledge), I drew the reverse-engineered schematics by hand.
 I didn't bother measuring the value of all resistors and capacitors, although I probably should have;
@@ -89,7 +90,7 @@ Just two wires, a metal body that accepts two crosshead screws attaching it to t
 
 ![Variable speed resistor](/images/motor_speed_variable_resistor.jpg) | ![Motor](/images/motor.jpg)
 --- | ---
-*Variable resistor to tune motor speed. The black dial is the "TONO" one.* | *Motor seen from below. At its left, the spring-operated "disc inserted switch", made of two copper plates. The thermal switch (not depicted) looks much like the "disc inserted switch", but is normally closed, and opens by metal heat expansion.*
+*Variable resistor to tune motor speed. The black dial is the "TONO" one.* | *Motor seen from below. At its left, the spring-operated "disc inserted switch", made of two copper plates.*
 
 ### The needle and its amplifier circuit
 The needle is mono, which matches with the single loudspeaker design. One needle wire is connected to ground;
