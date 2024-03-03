@@ -23,7 +23,8 @@ Usage is pretty basic, but to the point: insert the vinyl, and it starts spinnin
 On the bottom, near the mains power plug, embossed in the plastic we find one English sentence: "Made in Italy", while the other few words are all in Italian. "Brevettato", which stands for *Patented* and,
 next to the battery compartment, we find "6 BATTERIE DA 1.5 VOLTS", which stands for *6 1.5 Volt batteries*.
 
-| ![Made in Italy writing](/images/made_in_italy.jpg) | ![Other Italian writings](/images/italian_writings.jpg) |
+![Made in Italy writing](/images/made_in_italy.jpg) | ![Other Italian writings](/images/italian_writings.jpg)
+--- | ---
 
 # Opening the LUCSON MK I
 From the outside, the LUCSON MK I has no screws. The four holes found on the bottom would call for a screw, to no avail. Instead, the red top is clipped to the white base on the back, as seen in the pics.
