@@ -41,3 +41,14 @@ The LUCSON MK I accepts 220V AC 50Hz (standard European) mains, as well as batte
 Mains go through a transformer that outputs roughly 10VAC; this is then fed into a textbook [bridge rectifier](https://en.wikipedia.org/wiki/Diode_bridge) that outputs 9VDC, which powers the main PCB.
 
 Alternatively, when batteries are used, the positive pole goes straigth into the positive PCB trace; the batteries' negative pole is protected by a diode, likely as a measure to protect the electronics from inserting the batteries with wrong polarity.
+
+## The PCB
+The PCB is a fine piece of '80s artwork, with traces seemingly drawn by hand. It is attached to the white base by two crosshead screws.
+
+It is easily accessed by lifting the black plate bed, which simply sits on top of the white base, by means of four dampered holes (yes, the four "holes" on the bottom which called for a screw).
+
+![Detail of the PCB](/images/pcb_unscrewed.jpg)
+
+The circuitry is quite neat:
+a couple of capacitors to stabilize the input voltage; one circuit driving the motor; and one circuit picking the needle input to drive the loudspeaker. That's it.
+
