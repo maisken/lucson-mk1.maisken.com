@@ -65,6 +65,9 @@ A thermal switch, implemented as a simple pair of copper plates that separate by
 this is put in series with a further switch that closes when the vinyl is inserted, that powers the rest of the PCB.
 This is actually a nice layout that keeps the batteries fully disconected when the player is not in use; with mains, only the transformer is powered.
 
+![Thermal switch](/images/thermal_switch.jpg)
+*The thermal switch, made of two vertical copper plates touching each other, can be seen roughly at the center of the picture.*
+
 To preserve the vintage feeling (and for lack of better knowledge), I drew the reverse-engineered schematics by hand.
 I didn't bother measuring the value of all resistors and capacitors, although I probably should have;
 also not shown is the thermal switch: it's in series right before the "disc inserted switch".
@@ -107,6 +110,10 @@ The circumference was measured at 500mm, however the original belt was completel
 Unfortunately, such a belt seems quite hard to find; I found a 400mm circumference, 1x1mm belt at a local shop.
 After soaking the belt in hot water and stretching it by about one extra centimeter, I managed to somewhat comfortably
 mount it on the player, and it got working "just fine".
+
+![Original belt](/images/original_belt.jpg) | ![Deformed belt](/images/deformed_belt.jpg)
+--- | ---
+The original belt as found when opening the case... | ...and how deformed it was when pulled out of its place.
 
 The "disc inserted switch" was rusty enough that the motor wouldn't spin often times:
 that was a quick fix with some fine sandpaper.
