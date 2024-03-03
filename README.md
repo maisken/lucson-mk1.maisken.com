@@ -16,5 +16,5 @@ The LUCSON MKI has only one sticker: golden background, black font, all uppercas
 ![Bottom view of LUCSON MKI](/images/bottom_view.jpg)
 On the bottom, embossed in the plastic we find one English sentence: "Made in Italy", while the other few words are all in Italian. "Brevettato", which stands for *Patented* and,
 next to the battery compartment, we find "6 BATTERIE DA 1.5 VOLTS", which stands for *6 1.5 Volt batteries*.
---|--
+-- | --
 ![Made in Italy writing](/images/made_in_italy.jpg) | ![Other Italian writings](/images/italian_writings.jpg)
