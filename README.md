@@ -13,7 +13,7 @@ Hence this page to document and preserve its legacy.
 # Overview
 ![Top view of LUCSON MK I](/images/top_view.jpg)
 
-The LUCSON MK I has only one sticker: golden background, black font, all uppercase "LUCSON MK I". No other stickers nor mentions of a brand name, address or other references.
+The LUCSON MK I has only one sticker: golden background, black font, all uppercase "LUCSON MK I". No other stickers nor mentions of a registered brand name, address or other references.
 
 On the front, we find the slot where the vinyl is loaded, with a black button on the left, to release the vinyl; the button pops further out when the vinyl is inserted. Two dials allows for adjustment of "TONO" (*tone*) and "VOLUME" (that actually spells the same in Italian and English!).
 
@@ -37,7 +37,7 @@ Un-clipping 40 years old plastics always presents a cracking challenge. Luckily,
 ![Inside the LUCSON MK I](/images/inside_the_case.jpg)
 
 ## Powering the device
-The LUCSON MK I accepts 220V AC 50Hz (standard European) mains, as well as batteries. The 6 batteries are connected in series, hinting at a 9VDC internal circuitry.
+The LUCSON MK I accepts 220VAC 50Hz (standard European) mains, as well as batteries. The 6 batteries are connected in series, hinting at a 9VDC internal circuitry.
 Mains go through a transformer that outputs roughly 10VAC; this is then fed into a textbook [bridge rectifier](https://en.wikipedia.org/wiki/Diode_bridge) that outputs 9VDC, which powers the main PCB.
 
 Alternatively, when batteries are used, the positive pole goes straigth into the positive PCB trace; the batteries' negative pole is protected by a diode, likely as a measure to protect the electronics from inserting the batteries with wrong polarity.
@@ -51,8 +51,9 @@ It is easily accessed by lifting the black plate bed, which simply sits on top o
 
 The circuitry is quite neat:
 a couple of capacitors to stabilize the input voltage; one circuit driving the motor; and one circuit picking the needle input to drive the loudspeaker. That's about it.
-Nice additions are: a thermal switch, implemented as a simple pair of copper plates that separate by heat expansion;
-this is put in series with a switch that activates when the vinyl is inserted, that powers the rest of the PCB.
+A thermal switch, implemented as a simple pair of copper plates that separate by heat expansion, ensures "safe" (for the time!) operation;
+this is put in series with a further switch that closes when the vinyl is inserted, that powers the rest of the PCB.
+This is actually a nice layout that keeps the batteries fully disconected when the player is not in use; with mains, only the transformer is powered.
 
 To preserve the vintage feeling (and for lack of better knowledge), I drew the reverse-engineered schematics by hand.
 I didn't bother measuring the value of all resistors and capacitors, although I probably should have; also not shown is the thermal switch: it's in series right before the "disc inserted switch".
@@ -60,4 +61,12 @@ I didn't bother measuring the value of all resistors and capacitors, although I 
 ![Schematics](/images/schematics.png)
 
 ### The motor driver circuit
-The motor is driven by a [TCA910](https://pdf.datasheetcatalog.com/datasheets/208/499917_DS.pdf) motor speed regulator. It's used exactly like in the datasheet's typical application circuit. The variable resistor that tunes the motor speed can be set with a flat screwdriver; being only accessible once the top is removed, it is meant to be set at factory, and is not end-user configurable.
+The motor is driven by a [TCA910](https://pdf.datasheetcatalog.com/datasheets/208/499917_DS.pdf) motor speed regulator.
+It is used exactly like in the datasheet's typical application circuit. The variable resistor that tunes the motor speed
+can be set with a flat screwdriver; being only accessible once the top is removed, it is meant to be set at factory, and is not end-user configurable.
+
+![Variable speed resistor](/images/motor_speed_variable_resistor.jpg) | ![Motor](/images/motor.jpg)
+--- | ---
+*Variable resistor to tune motor speed. The black dial is the "TONO" one.* | *Motor seen from below. At its left, the spring-operated "disc inserted switch", made of two copper plates. The thermal switch (not depicted) looks much like the "disc inserted switch", but is normally closed, and opens by metal heat expansion.*
+
+
