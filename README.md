@@ -1,1 +1,1 @@
-Keeping legacy of the made-in-Italy LUCSON MKI slot-load vinyl player
+![Front view of LUCSON MKI](/images/front_view.jpg)
