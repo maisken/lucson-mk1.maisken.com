@@ -50,10 +50,14 @@ It is easily accessed by lifting the black plate bed, which simply sits on top o
 ![Detail of the PCB](/images/pcb_unscrewed.jpg)
 
 The circuitry is quite neat:
-a couple of capacitors to stabilize the input voltage; one circuit driving the motor; and one circuit picking the needle input to drive the loudspeaker. That's it.
-To preserve the feeling (and for lack of better knowledge), I drew the reverse-engineered schematics by hand;
-I didn't bother measuring the value of all resistors and capacitors, although I probably should have.
+a couple of capacitors to stabilize the input voltage; one circuit driving the motor; and one circuit picking the needle input to drive the loudspeaker. That's about it.
+Nice additions are: a thermal switch, implemented as a simple pair of copper plates that separate by heat expansion;
+this is put in series with a switch that activates when the vinyl is inserted, that powers the rest of the PCB.
 
-![Schematics](/images/schematics.jpg)
+To preserve the vintage feeling (and for lack of better knowledge), I drew the reverse-engineered schematics by hand.
+I didn't bother measuring the value of all resistors and capacitors, although I probably should have; also not shown is the thermal switch: it's in series right before the "disc inserted switch".
 
-### 
+![Schematics](/images/schematics.png)
+
+### The motor driver circuit
+The motor is driven by a [TCA910](https://pdf.datasheetcatalog.com/datasheets/208/499917_DS.pdf) motor speed regulator. It's used exactly like in the datasheet's typical application circuit. The variable resistor that tunes the motor speed can be set with a flat screwdriver; being only accessible once the top is removed, it is meant to be set at factory, and is not end-user configurable.
