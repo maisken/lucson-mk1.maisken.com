@@ -107,7 +107,8 @@ In my case, the turntable was well preserved. The slot release mechanism worked 
 I mostly removed a thin layer of dust in the inside by gently blowing compressed air.
 
 The belt was, as expected, completely dusted, so I had to find a replacement one. The original belt was square, 1.5x1.5mm width.
-The circumference was measured at 500mm, however the original belt was completely stretched; a 440mm circumference should do the job.
+The circumference was measured at 500mm, however the original belt was completely stretched;
+with a 143mm plate diameter, a 440mm belt circumference should do the job.
 Unfortunately, such a belt seems quite hard to find; I found a 400mm circumference, 1x1mm belt at a local shop.
 After soaking the belt in hot water and stretching it by about one extra centimeter, I managed to somewhat comfortably
 mount it on the player, and it got working "just fine".
